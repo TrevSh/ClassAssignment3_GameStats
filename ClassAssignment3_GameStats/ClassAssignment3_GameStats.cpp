@@ -17,6 +17,7 @@ int main()
     MILLENIUM_FALCON - myShipCost;                                             //The cost of Upgrading a ship to the next might look something like this.
 
     short lives, aliensKilled;          //"short" reduced the number of values a variable can hold and reduces stprage need. "long" increases it.
+
     //Assignments (=)
     aliensKilled = 10;
     score = aliensKilled * ALIEN_POINTS;//Each alien killed is worth 150 or ALIEN_POINTS. The value of ALIEN_POINTS cannot be altered outside of modifying the variable.
@@ -53,5 +54,5 @@ int main()
     ushort bonus = 10;
     std::cout << "\nbonus: " << bonus << '\n';
 
-    return 0;
+    return 0;       //Ends program :)
 }
