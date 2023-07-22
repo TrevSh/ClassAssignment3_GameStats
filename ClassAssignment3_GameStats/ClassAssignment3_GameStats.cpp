@@ -2,12 +2,13 @@
 
 int main()
 {
+    //Declarations
     int score;
-    double distance;
-    char playAgain;
-    bool shieldsUp;     //True or false
+    double distance;                    //Double precision decimal floating(float) numbers
+    char playAgain;                     //Single CHARacter
+    bool shieldsUp;                     //True or false
 
-    short lives, aliensKilled;
+    short lives, aliensKilled;          //"short" reduced the number of values a variable can hold and reduces stprage need. "long" increases it.
 
     score = 0;
     distance = 1200.76;
@@ -31,7 +32,11 @@ int main()
     std::cin >> fuel;
     std::cout << "fuel: " << fuel << '\n';
 
-    typedef unsigned short int ushort;
+    typedef unsigned short int ushort;//A signed int means a variable can store both positive and negative values while unsigned only accpets positive values. Neither affact the number of values the variable can hold
     ushort bonus = 10;
     std::cout << "\nbonus: " << bonus << '\n';
+
+    return 0;
+
+
 }
