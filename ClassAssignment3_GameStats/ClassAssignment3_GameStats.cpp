@@ -17,4 +17,12 @@ int main()
     aliensKilled = 10;
 
     double engineTemp = 6572.89;
+
+    std::cout << "\nscore: " << score << '\n';
+    std::cout << "distance: " << distance << '\n';
+    std::cout << "playAgain: " << playAgain << '\n';
+    //Skipping printing the bool as you dont print bool values generally
+    std::cout << "lives: " << lives << '\n';
+    std::cout << "aliensKilled: " << aliensKilled << '\n';
+    std::cout << "engineTemp: " << engineTemp << '\n';
 }
