@@ -25,4 +25,13 @@ int main()
     std::cout << "lives: " << lives << '\n';
     std::cout << "aliensKilled: " << aliensKilled << '\n';
     std::cout << "engineTemp: " << engineTemp << '\n';
+
+    int fuel;
+    std::cout << "\nHow much fuel would you like?";
+    std::cin >> fuel;
+    std::cout << "fuel: " << fuel << '\n';
+
+    typedef unsigned short int ushort;
+    ushort bonus = 10;
+    std::cout << "\nbonus: " << bonus << '\n';
 }
