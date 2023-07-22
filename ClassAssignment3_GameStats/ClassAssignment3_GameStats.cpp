@@ -16,8 +16,6 @@ int main()
     shipCosts myShipCost = BOMBER_COST;                                        //So BOMBER_COST will be 26.
     MILLENIUM_FALCON - myShipCost;                                             //The cost of Upgrading a ship to the next might look something like this.
 
-
-
     short lives, aliensKilled;          //"short" reduced the number of values a variable can hold and reduces stprage need. "long" increases it.
     //Assignments (=)
     aliensKilled = 10;
@@ -38,8 +36,6 @@ int main()
     score++;                                            //++ or -- adds/subtracts the value by 1. Can be a prefix or suffix, which affects when it will apply the operation
     std::cout << "\nscore: " << score << '\n';          
 
-
-
     std::cout << "distance: " << distance << '\n';
     std::cout << "playAgain: " << playAgain << '\n';
     //Skipping printing the bool as you dont print bool values generally
@@ -52,13 +48,10 @@ int main()
     std::cin >> fuel;                                   //Stores User Input in variable
     std::cout << "fuel: " << fuel << '\n';
 
-
     //typedef is used to create shorter names for types with longer names.
     typedef unsigned short int ushort;//A signed int means a variable can store both positive and negative values while unsigned only accpets positive values. Neither affact the number of values the variable can hold
     ushort bonus = 10;
     std::cout << "\nbonus: " << bonus << '\n';
 
     return 0;
-
-
 }
